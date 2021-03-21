@@ -690,11 +690,11 @@ padding-bottom: 100px;
 }
 .author-avatar {
 float: left;
-max-height: 350px;
+max-height: 300px;
 max-width: 300px;
 }
 .member-details {
-padding-left: 260px;
+padding-left: 230px;
 }
 .member-top {
 position: relative;
