@@ -164,8 +164,8 @@ if($_POST["message"]) {
             <!--<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-apple"></i></span> </div>-->
             <h3 class="animated fadeInUp wow">Theses</h3>
             <p class="animated fadeInDown wow">
-		  				1)Anes Abdennebi, Computer Science and Engineering, Master’s Thesis, 2020, A HIGH PERFORMANCE CPU-GPU DATABASE FOR STREAMING DATA ANALYSIS. Asst. Prof.  Kamer Kaya (Thesis Supervisor).
-		  				<br><br>2) Anıl Elakaş, Computer Science and Engineering, Master’s Thesis, 2020, Load Balancing by Using Machine Learning in CPU-GPU Heterogeneous Database Management System. Asst .Prof  Erdinç Öztürk (Thesis Supervisor).
+		  				1)Anes Abdennebi, Computer Science and Engineering, Master’s Thesis, 2020, A HIGH PERFORMANCE CPU-GPU DATABASE FOR STREAMING DATA ANALYSIS. <strong>Asst. Prof. Kamer Kaya</strong> (Thesis Supervisor).
+		  				<br><br>2) Anıl Elakaş, Computer Science and Engineering, Master’s Thesis, 2020, Load Balancing by Using Machine Learning in CPU-GPU Heterogeneous Database Management System. <strong>Asst .Prof  Erdinç Öztürk </strong> (Thesis Supervisor).
 		  				
 		  				</p>
           </div>
@@ -428,7 +428,7 @@ if($_POST["message"]) {
 													Sinan Yıldırım
 												</h4>
 												<span class="designation">
-													Project Coordinator
+													<strong>Project Coordinator </strong>
 												</span>
 											</div><!-- /.member-top -->
 
@@ -462,7 +462,7 @@ if($_POST["message"]) {
 													Erdinç Öztürk
 												</h4>
 												<span class="designation">
-													Researcher
+													<strong>Researcher </strong>
 												</span>
 											</div><!-- /.member-top -->
 											<p>
@@ -495,7 +495,7 @@ if($_POST["message"]) {
 													Kamer Kaya
 												</h4>
 												<span class="designation">
-													Researcher
+													<strong>Researcher </strong>
 												</span>
 											</div><!-- /.member-top -->
 											<p>
@@ -528,7 +528,7 @@ if($_POST["message"]) {
 													Anes Abdennebi
 												</h4>
 												<span class="designation">
-													Scholar
+													<strong>Scholar </strong>
 												</span>
 											</div><!-- /.member-top -->
 											<p>
@@ -574,14 +574,16 @@ if($_POST["message"]) {
       </div>
       <div class="row">
  	
-	<form method="post" action="subscriberform.php">
-
-
-		<textarea name="message"></textarea>
-		<input type="submit">
-
-
+	<form action=”mailto:contact@yourdomain.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+		Name:<br>
+		<input type=”text” size=”19″ name=”ContactName”><br><br>
+			Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+	</textarea><br><br> 
+		<input type=”submit” value=”Submit”> 
+	      
 	</form>
+
+
 	      
 	      
 	      
