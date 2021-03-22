@@ -1,13 +1,4 @@
-<?php
 
-if($_POST["message"]) {
-
-	mail("anesabdennebi@sabanciuniv.edu", "Here is the subject line",
-	$_POST["insert your message here"]. "From: a.anasti@gmail.com");
-
-}
-
-?>
 
 <!doctype html>
 <html>
@@ -582,7 +573,7 @@ if($_POST["message"]) {
 	      
 	      
         <div class="col-lg-12 wow fadeInLeft delay-06s">
-          <form class="form" action=”mailto:anesabdennebi@sabanciuniv.edu” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+          <form class="form" action=”mail.php” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
 	   
             <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
