@@ -574,14 +574,7 @@ if($_POST["message"]) {
       </div>
       <div class="row">
  	
-	<form action=”mailto:contact@yourdomain.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-		Name:<br>
-		<input type=”text” size=”19″ name=”ContactName”><br><br>
-			Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-	</textarea><br><br> 
-		<input type=”submit” value=”Submit”> 
-	      
-	</form>
+	
 
 
 	      
@@ -589,12 +582,13 @@ if($_POST["message"]) {
 	      
 	      
         <div class="col-lg-12 wow fadeInLeft delay-06s">
-          <div class="form" method="post">
+          <form class="form" action=”mailto:contact@yourdomain.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+	   
             <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
             <input class="input-btn" type="submit" value="send message">
-          </div>
+          </form>
         </div>
 		
       </div>
