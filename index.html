@@ -18,6 +18,8 @@
     <script src="js/html5element.js"></script>
 <![endif]-->
  
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="index.js"></script>
 </head>
 <body>
 
@@ -587,7 +589,7 @@
             <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-            <input class="input-btn" type="submit" name="message">
+            <input class="input-btn" type="submit" name="message" onclick="sendEmail()">
           </form>
         </div>
 		
