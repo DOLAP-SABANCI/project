@@ -676,7 +676,7 @@ img {
     margin: 0 auto;
 }
 .img-normal{
-    width: 100%;
+    width: 130%;
     height: 100%;
 }
 #aboutUs {
@@ -1600,7 +1600,7 @@ margin: 0 0 9px 0;
 padding: 20px 0 20px;
 }
 #aboutUs img{
-margin-bottom:20px;
+margin-bottom:0px;
 }
 #aboutUs h3{
 font-size:16px;
